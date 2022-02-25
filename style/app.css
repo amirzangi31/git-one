@@ -5,4 +5,16 @@
   font-family: cursive;
 }
 
+header {
+  background-color: yellow;
+  color: black;
+  font-family: fantasy;
+}
+header .container {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*# sourceMappingURL=app.css.map */
