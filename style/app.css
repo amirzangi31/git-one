@@ -1,22 +1,8 @@
-.container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.container .section {
-  height: 10vh;
-  margin: 1rem 0;
-}
-.container .section:nth-child(odd) {
-  background-color: blue;
-}
-.container .section:nth-child(even) {
-  background-color: yellow;
-}
-@media (max-width: 300px) and (max-width: 400) {
-  .container .section {
-    width: 50%;
-  }
+.navbar {
+  padding: 1rem 0;
+  background-color: purple;
+  color: red;
+  font-family: cursive;
 }
 
 /*# sourceMappingURL=app.css.map */
